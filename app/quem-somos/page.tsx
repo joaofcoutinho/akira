@@ -57,7 +57,7 @@ export default function QuemSomosPage() {
               <li
                 key={s.label}
                 data-stagger
-                className="flex flex-col gap-3 border-l border-line pl-6 md:border-l md:pl-8"
+                className="flex flex-col gap-3 text-center md:border-l md:border-line md:pl-8 md:text-left"
               >
                 <span className="text-6xl font-light tracking-tightest text-bone md:text-7xl">
                   {s.value}
