@@ -68,13 +68,11 @@ export function Hero() {
               sizes="(min-width: 768px) 40vw, 100vw"
               priority
               className="h-auto w-full"
-            />
-            <div
-              aria-hidden
-              className="pointer-events-none absolute inset-x-0 bottom-0 h-1/3"
               style={{
-                background:
-                  'linear-gradient(to top, #0a0f0d 0%, rgba(10,15,13,0.7) 50%, rgba(10,15,13,0) 100%)',
+                WebkitMaskImage:
+                  'linear-gradient(to top, transparent 0%, black 25%)',
+                maskImage:
+                  'linear-gradient(to top, transparent 0%, black 25%)',
               }}
             />
           </FadeIn>
