@@ -51,18 +51,18 @@ export default function QuemSomosPage() {
           <FadeIn
             as="ul"
             stagger={0.12}
-            className="grid grid-cols-1 gap-10 md:grid-cols-3"
+            className="grid grid-cols-3 gap-4 sm:gap-6 md:gap-10"
           >
             {stats.map((s) => (
               <li
                 key={s.label}
                 data-stagger
-                className="flex flex-col gap-3 text-center md:border-l md:border-line md:pl-8 md:text-left"
+                className="flex flex-col gap-2 text-center md:gap-3 md:border-l md:border-line md:pl-8 md:text-left"
               >
-                <span className="text-6xl font-light tracking-tightest text-bone md:text-7xl">
+                <span className="text-4xl font-light tracking-tightest text-bone sm:text-5xl md:text-7xl">
                   {s.value}
                 </span>
-                <span className="text-xs uppercase tracking-[0.2em] text-mist">
+                <span className="text-[0.625rem] uppercase tracking-[0.18em] text-mist sm:text-xs sm:tracking-[0.2em]">
                   {s.label}
                 </span>
               </li>

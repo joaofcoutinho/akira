@@ -59,7 +59,7 @@ export function Hero() {
         </div>
 
         <div className="md:col-span-5 lg:col-span-5">
-          <FadeIn delay={0.3}>
+          <FadeIn delay={0.3} className="relative">
             <Image
               src={HERO_IMAGE}
               alt="Akira Matsuzaki"
@@ -68,11 +68,13 @@ export function Hero() {
               sizes="(min-width: 768px) 40vw, 100vw"
               priority
               className="h-auto w-full"
+            />
+            <div
+              aria-hidden
+              className="pointer-events-none absolute inset-x-0 bottom-0 h-1/3"
               style={{
-                WebkitMaskImage:
-                  'linear-gradient(to top, transparent 0%, black 35%)',
-                maskImage:
-                  'linear-gradient(to top, transparent 0%, black 35%)',
+                background:
+                  'linear-gradient(to top, #0a0f0d 0%, rgba(10,15,13,0.7) 50%, rgba(10,15,13,0) 100%)',
               }}
             />
           </FadeIn>
