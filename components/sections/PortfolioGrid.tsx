@@ -38,7 +38,7 @@ export function PortfolioGrid({
       )}
     >
       <div className="mx-auto max-w-content px-6 md:px-12 lg:px-20">
-        <FadeIn className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
+        <FadeIn className="flex flex-col items-center gap-6 text-center md:flex-row md:items-end md:justify-between md:text-left">
           <div>
             <Eyebrow>{eyebrow}</Eyebrow>
             <h2 className="mt-4 max-w-2xl text-4xl font-light tracking-tight md:text-6xl">

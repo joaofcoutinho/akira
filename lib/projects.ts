@@ -31,9 +31,9 @@ export const projects: Project[] = [
     category: 'Identidade Visual',
     client: 'Cliente Confidencial',
     year: '2025',
-    cover: u('photo-1561070791-2526d30994b8'),
+    cover: u('photo-1560472354-b33ff0c44a43'),
     gallery: [
-      u('photo-1561070791-2526d30994b8'),
+      u('photo-1560472354-b33ff0c44a43'),
       u('photo-1586717791821-3f44a563fa4c'),
       u('photo-1620207418302-439b387441b0'),
     ],
@@ -68,7 +68,7 @@ export const projects: Project[] = [
     cover: u('photo-1558655146-9f40138edfeb'),
     gallery: [
       u('photo-1558655146-9f40138edfeb'),
-      u('photo-1561070791-2526d30994b8'),
+      u('photo-1560472354-b33ff0c44a43'),
       u('photo-1586717791821-3f44a563fa4c'),
     ],
     description:
@@ -120,7 +120,7 @@ export const projects: Project[] = [
     gallery: [
       u('photo-1611532736597-de2d4265fba3'),
       u('photo-1542353436-312f0e1f67ff'),
-      u('photo-1561070791-2526d30994b8'),
+      u('photo-1560472354-b33ff0c44a43'),
     ],
     description:
       'Naming e identidade verbal para marca de cosméticos premium. Universo narrativo e tom de voz.',
@@ -150,9 +150,9 @@ export const projects: Project[] = [
     category: 'Rebranding',
     client: 'Cliente Confidencial',
     year: '2023',
-    cover: u('photo-1561070791-2526d30994b8'),
+    cover: u('photo-1560472354-b33ff0c44a43'),
     gallery: [
-      u('photo-1561070791-2526d30994b8'),
+      u('photo-1560472354-b33ff0c44a43'),
       u('photo-1542353436-312f0e1f67ff'),
       u('photo-1558655146-9f40138edfeb'),
     ],

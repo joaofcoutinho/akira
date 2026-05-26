@@ -1,16 +1,15 @@
 'use client';
 
+import Image from 'next/image';
 import { FadeIn } from '@/components/animations/FadeIn';
 import { Eyebrow } from '@/components/ui/Eyebrow';
 
-// Client names — substituir por SVGs de logos quando vier do cliente.
-const CLIENTS = [
-  'QUARTZOMASSA',
-  'MAHAI',
-  'KAJORY',
-  'FRIFORT',
-  'STUDIO FP',
-  'CASA VILANI',
+const CLIENT_LOGOS = [
+  '/images/logos-akira/1.png',
+  '/images/logos-akira/2.png',
+  '/images/logos-akira/3.png',
+  '/images/logos-akira/4.png',
+  '/images/logos-akira/5.png',
 ];
 
 /**
@@ -19,7 +18,7 @@ const CLIENTS = [
  * `fade-mask-x` (globals.css) creates the lateral fade per client request.
  */
 export function ClientsCarousel() {
-  const items = [...CLIENTS, ...CLIENTS];
+  const items = [...CLIENT_LOGOS, ...CLIENT_LOGOS];
 
   return (
     <section className="relative border-y border-line bg-forest-900/40 py-20 md:py-28">
@@ -34,13 +33,15 @@ export function ClientsCarousel() {
 
       <div className="fade-mask-x mt-14 overflow-hidden">
         <div className="flex w-max animate-marquee items-center gap-16 px-6 md:gap-24">
-          {items.map((name, i) => (
-            <span
-              key={`${name}-${i}`}
-              className="select-none whitespace-nowrap text-xl font-light tracking-[0.25em] text-mist md:text-2xl"
-            >
-              {name}
-            </span>
+          {items.map((src, i) => (
+            <Image
+              key={`${src}-${i}`}
+              src={src}
+              alt="Logo cliente"
+              width={500}
+              height={250}
+              className="h-12 w-auto shrink-0 select-none opacity-70 transition-opacity hover:opacity-100 md:h-14"
+            />
           ))}
         </div>
       </div>
