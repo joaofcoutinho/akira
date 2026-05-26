@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { Button } from '@/components/ui/Button';
+import { Send } from '@/components/ui/Icons';
 import { whatsappLink } from '@/lib/whatsapp';
 import { cn } from '@/lib/cn';
 
@@ -92,8 +93,9 @@ export function ContactForm() {
           size="lg"
           disabled={!isValid}
           className={cn(!isValid && 'pointer-events-none')}
+          icon={<Send />}
         >
-          Enviar pelo WhatsApp →
+          Enviar pelo WhatsApp
         </Button>
         <p className="text-xs uppercase tracking-[0.18em] text-mist">
           Respondemos em até 24h.

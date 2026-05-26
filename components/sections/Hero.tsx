@@ -6,6 +6,7 @@ import { FadeIn } from '@/components/animations/FadeIn';
 import { Eyebrow } from '@/components/ui/Eyebrow';
 import { Button } from '@/components/ui/Button';
 import { WaveTexture } from '@/components/ui/WaveTexture';
+import { ArrowRight, Send } from '@/components/ui/Icons';
 import { whatsappLink } from '@/lib/whatsapp';
 
 const HERO_IMAGE = '/images/akira-limpo.png';
@@ -42,11 +43,17 @@ export function Hero() {
               external
               variant="primary"
               size="lg"
+              icon={<Send />}
             >
               Iniciar projeto
             </Button>
-            <Button href="/portfolio" variant="ghost" size="lg">
-              Ver portfólio →
+            <Button
+              href="/portfolio"
+              variant="ghost"
+              size="lg"
+              icon={<ArrowRight />}
+            >
+              Ver portfólio
             </Button>
           </FadeIn>
         </div>

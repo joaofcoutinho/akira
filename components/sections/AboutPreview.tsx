@@ -4,6 +4,7 @@ import { FadeIn } from '@/components/animations/FadeIn';
 import { ParallaxImage } from '@/components/animations/ParallaxImage';
 import { Eyebrow } from '@/components/ui/Eyebrow';
 import { Button } from '@/components/ui/Button';
+import { ArrowUpRight } from '@/components/ui/Icons';
 
 const ABOUT_IMAGE = '/images/akira.png';
 
@@ -40,7 +41,12 @@ export function AboutPreview() {
           </FadeIn>
 
           <FadeIn delay={0.4} className="mt-10">
-            <Button href="/quem-somos" variant="outline" size="md">
+            <Button
+              href="/quem-somos"
+              variant="outline"
+              size="md"
+              icon={<ArrowUpRight />}
+            >
               Conheça o estúdio
             </Button>
           </FadeIn>

@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { FadeIn } from '@/components/animations/FadeIn';
 import { Eyebrow } from '@/components/ui/Eyebrow';
 import { Button } from '@/components/ui/Button';
+import { ArrowRight } from '@/components/ui/Icons';
 import { ProjectModal } from '@/components/ui/ProjectModal';
 import type { Project } from '@/lib/projects';
 import { cn } from '@/lib/cn';
@@ -46,8 +47,13 @@ export function PortfolioGrid({
             </h2>
           </div>
           {showFooterLink && (
-            <Button href="/portfolio" variant="ghost" size="md">
-              Ver todos →
+            <Button
+              href="/portfolio"
+              variant="ghost"
+              size="md"
+              icon={<ArrowRight />}
+            >
+              Ver todos
             </Button>
           )}
         </FadeIn>

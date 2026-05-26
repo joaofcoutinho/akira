@@ -5,6 +5,7 @@ import { SplitText } from '@/components/animations/SplitText';
 import { Eyebrow } from '@/components/ui/Eyebrow';
 import { Button } from '@/components/ui/Button';
 import { WaveTexture } from '@/components/ui/WaveTexture';
+import { Send, ArrowRight } from '@/components/ui/Icons';
 import { whatsappLink } from '@/lib/whatsapp';
 
 export function CTASection() {
@@ -38,10 +39,16 @@ export function CTASection() {
             external
             variant="primary"
             size="lg"
+            icon={<Send />}
           >
             Iniciar pelo WhatsApp
           </Button>
-          <Button href="/contato" variant="outline" size="lg">
+          <Button
+            href="/contato"
+            variant="outline"
+            size="lg"
+            icon={<ArrowRight />}
+          >
             Preencher formulário
           </Button>
         </FadeIn>
