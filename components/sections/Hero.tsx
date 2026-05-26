@@ -16,6 +16,15 @@ export function Hero() {
     <section className="relative overflow-hidden pt-32 pb-20 md:pt-40 md:pb-32 lg:pt-48 lg:pb-40">
       <WaveTexture intensity="subtle" className="opacity-70" />
 
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-x-0 bottom-0 h-96 z-10"
+        style={{
+          background:
+            'linear-gradient(to top, #0a0f0d 0%, #0a0f0d 30%, rgba(10,15,13,0) 100%)',
+        }}
+      />
+
       <div className="relative mx-auto grid max-w-content grid-cols-1 items-end gap-12 px-6 md:grid-cols-12 md:gap-10 md:px-12 lg:px-20">
         <div className="text-center md:col-span-7 md:text-left lg:col-span-7">
           <FadeIn delay={0.1}>
@@ -77,7 +86,7 @@ export function Hero() {
             />
           </FadeIn>
 
-          <FadeIn delay={0.6} className="mt-6 flex flex-col items-center justify-center gap-1 text-xs uppercase tracking-[0.2em] text-mist md:flex-row md:items-center md:justify-between md:gap-0">
+          <FadeIn delay={0.6} className="relative z-20 mt-6 flex flex-col items-center justify-center gap-1 text-xs uppercase tracking-[0.2em] text-bone md:flex-row md:items-center md:justify-between md:gap-0">
             <span>Akira Matsuzaki</span>
             <span>Founder · Designer</span>
           </FadeIn>
