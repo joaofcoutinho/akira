@@ -8,7 +8,7 @@ import { Button } from '@/components/ui/Button';
 import { WaveTexture } from '@/components/ui/WaveTexture';
 import { whatsappLink } from '@/lib/whatsapp';
 
-const HERO_IMAGE = '/images/akira-novo.png';
+const HERO_IMAGE = '/images/akira-limpo.png';
 
 export function Hero() {
   return (
@@ -61,6 +61,12 @@ export function Hero() {
               sizes="(min-width: 768px) 40vw, 100vw"
               priority
               className="h-auto w-full"
+              style={{
+                WebkitMaskImage:
+                  'linear-gradient(to top, transparent 0%, black 35%)',
+                maskImage:
+                  'linear-gradient(to top, transparent 0%, black 35%)',
+              }}
             />
           </FadeIn>
 
