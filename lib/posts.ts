@@ -25,7 +25,7 @@ export const posts: Post[] = [
     category: 'Estratégia',
     date: '2025-11-12',
     readingTime: '6 min',
-    cover: u('photo-1561070791-2526d30994b8'),
+    cover: u('photo-1600585154340-be6161a56a0c'),
     content: `
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. O texto deste post é apenas um placeholder elegante. O conteúdo real será escrito pelo cliente.</p>
       <h2>Profundidade estratégica</h2>
