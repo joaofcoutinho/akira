@@ -13,7 +13,7 @@ const HERO_IMAGE = '/images/akira-limpo.png';
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden pt-32 pb-20 md:pt-40 md:pb-32 lg:pt-48 lg:pb-40">
+    <section className="relative overflow-hidden pt-24 pb-12 md:pt-28 md:pb-16 lg:pt-32 lg:pb-20">
       <WaveTexture intensity="subtle" className="opacity-70" />
 
       <div
@@ -25,7 +25,7 @@ export function Hero() {
         }}
       />
 
-      <div className="relative mx-auto grid max-w-content grid-cols-1 items-end gap-12 px-6 md:grid-cols-12 md:gap-10 md:px-12 lg:px-20">
+      <div className="relative z-20 mx-auto grid max-w-content grid-cols-1 items-end gap-12 px-6 md:grid-cols-12 md:gap-10 md:px-12 lg:px-20">
         <div className="text-center md:col-span-7 md:text-left lg:col-span-7">
           <FadeIn delay={0.1}>
             <Eyebrow>Branding · Identidade Visual</Eyebrow>
