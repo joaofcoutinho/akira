@@ -37,8 +37,11 @@ export default function QuemSomosPage() {
           </SplitText>
           <FadeIn delay={0.3} className="mt-10 max-w-2xl">
             <p className="text-lg font-light leading-relaxed text-mist md:text-xl">
-              Texto introdutório do estúdio — quem somos, posicionamento e
-              filosofia. Será reescrito pelo cliente.
+              Akira é um estúdio independente de branding com sede em São Paulo
+              e atuação internacional. Trabalhamos com fundadores e times de
+              marketing que tratam marca como ativo estratégico — projetando
+              identidades que comunicam autoridade, sustentam crescimento e
+              atravessam ciclos.
             </p>
           </FadeIn>
         </div>

@@ -36,13 +36,14 @@ export function Hero() {
             className="mt-6 text-4xl font-light tracking-tightest leading-[1] md:text-6xl lg:text-[6rem]"
             stagger={0.07}
           >
-            Headline aqui em duas linhas elegantes.
+            Marcas que comunicam autoridade desde o primeiro olhar.
           </SplitText>
 
           <FadeIn delay={0.5} className="mx-auto mt-8 max-w-lg md:mx-0">
             <p className="text-base font-light leading-relaxed text-mist md:text-lg">
-              Subtítulo aqui — descrição curta de posicionamento, foco em
-              autoridade e exclusividade. O cliente vai editar este texto.
+              Akira é um estúdio de branding dedicado a projetos high ticket —
+              estratégia, identidade visual e sistemas de marca para empresas
+              que tratam design como ativo de longo prazo.
             </p>
           </FadeIn>
 

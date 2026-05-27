@@ -31,8 +31,10 @@ export function AboutPreview() {
 
           <FadeIn delay={0.2} className="mt-8 space-y-6 text-base font-light leading-relaxed text-mist md:text-lg">
             <p>
-              Texto sobre o estúdio — autoridade, alcance internacional e
-              processo. Será reescrito pelo cliente.
+              Há mais de uma década construímos identidades para marcas que
+              precisam comunicar presença antes mesmo de serem ditas — do
+              Brasil ao exterior, em mercados onde a primeira impressão decide
+              o preço.
             </p>
             <p>
               Cada projeto é tratado como construção de longo prazo, com

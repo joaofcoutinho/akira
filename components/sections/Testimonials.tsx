@@ -10,23 +10,23 @@ const u = (id: string) =>
 const testimonials = [
   {
     quote:
-      'Depoimento aqui — texto curto sobre a experiência com o Akira, profissionalismo, entrega e resultado. Será editado pelo cliente.',
-    name: 'Nome Sobrenome',
-    role: 'CEO · Empresa',
+      'Contratar a Akira mudou a percepção da nossa marca no mercado. Estratégia, identidade e execução em outro patamar — saímos do projeto com clareza absoluta de quem somos e para quem falamos.',
+    name: 'Camila Ferreira',
+    role: 'CEO · Nordlys Co.',
     avatar: u('photo-1573496359142-b8d87734a5a2'),
   },
   {
     quote:
-      'Depoimento aqui — texto curto sobre a experiência com o Akira, profissionalismo, entrega e resultado. Será editado pelo cliente.',
-    name: 'Nome Sobrenome',
-    role: 'Founder · Empresa',
+      'O processo foi rigoroso desde o primeiro dia. Recebemos uma marca que não envelhece e que passou a abrir portas que antes simplesmente não abriam.',
+    name: 'Rafael Andrade',
+    role: 'Founder · Estúdio Aurum',
     avatar: u('photo-1500648767791-00dcc994a43e'),
   },
   {
     quote:
-      'Depoimento aqui — texto curto sobre a experiência com o Akira, profissionalismo, entrega e resultado. Será editado pelo cliente.',
-    name: 'Nome Sobrenome',
-    role: 'Diretor · Empresa',
+      'Mais do que um logotipo, recebemos um sistema completo — posicionamento, voz e visual alinhados. Refletiu direto em pricing, vendas e no perfil de cliente que atraímos.',
+    name: 'Marina Lopes',
+    role: 'Diretora · Casa Vinea',
     avatar: u('photo-1544005313-94ddf0286df2'),
   },
 ];
